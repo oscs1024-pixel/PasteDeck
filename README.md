@@ -13,7 +13,7 @@ PasteDeck 识别文本、富文本、HTML、图片、链接、文件、颜色与
 
 图片卡片使用下采样缩略图保证滚动性能，空格预览时读取原始数据。
 
-![image-20260817155052481](/Users/zero/Library/Application Support/typora-user-images/image-20260817155052481.png)
+
 
 ## 2. 搜索、过滤与 OCR
 
@@ -32,7 +32,6 @@ PasteDeck 识别文本、富文本、HTML、图片、链接、文件、颜色与
 
 复制链接后立即在后台抓取 Open Graph 标题、描述和图片，不等面板打开。GitHub 仓库链接额外显示仓库头像、星标、分支、问题和关注数；窄卡片会省略统计文字标签，但不会丢失“关注”数据。
 
-![image-20260817155152702](/Users/zero/Library/Application Support/typora-user-images/image-20260817155152702.png)
 
 性能和隐私策略：
 
@@ -49,13 +48,10 @@ PasteDeck 识别文本、富文本、HTML、图片、链接、文件、颜色与
 
 红点表示“上次进入收藏夹以后新增了收藏”，进入收藏页立即标记为已读，不使用固定 24 小时窗口。
 
-![收藏夹](screenshots/pinboard.png)
 
 ## 5. 片段
 
 片段用于保存经常输入的文本，可随时新建、编辑和删除。内容中的 `{{变量名}}` 会在插入时生成填写项，允许同一变量重复使用与空格写法。
-
-![image-20260817155231303](/Users/zero/Library/Application Support/typora-user-images/image-20260817155231303.png)
 
 - 方向键选择，Return 复制；
 - 双击无占位符片段直接粘贴；
@@ -99,19 +95,14 @@ Paste Stack 是独立的值快照队列，不持有可能被历史清理删除�
 
 真实读取并切换登录启动状态、复制反馈音、历史上限、保留天数和清空历史。数值只在 Return 或输入框失焦时校验提交，输入过程中不会触发清理。
 
-![通用设置](screenshots/settings-general.png)
-
 ### 隐私
 
 配置屏幕共享显示、链接富预览和本地图片 OCR。说明文字明确标记联网与离线边界。
-
-![隐私设置](screenshots/settings-privacy.png)
 
 ### 外观
 
 主题支持跟随系统、浅色和深色；卡片支持紧凑、标准和大。选择状态立即改变，设置持久化并同步到已打开的面板与窗口。
 
-![PasteDeck-1786952989-13D8E7](/var/folders/f5/d0bv3mb53cnb73pz2vh4d6q00000gn/T/PasteDeck/PasteDeck-1786952989-13D8E7.png)
 
 ### 快捷键
 
@@ -121,13 +112,10 @@ Paste Stack 是独立的值快照队列，不持有可能被历史清理删除�
 
 JSON 导出包含历史、收藏、片段、来源设备、OCR 与链接元数据。导入先完整校验，随后在一次事务中替换；导入前会自动写入当前数据安全快照。
 
-![备份设置](screenshots/settings-backup.png)
-
 ### 关于与权限
 
 显示应用图标、版本、存储承诺和辅助功能实时状态。授权完成后无需重启即可刷新为已允许。
 
-![关于](screenshots/settings-about.png)
 
 ## 10. 快捷键总览
 
