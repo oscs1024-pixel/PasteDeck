@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../PasteDeck/Resources/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png" width="160" alt="PasteDeck 图标">
+  <img src="icon.png" width="160" alt="PasteDeck 图标">
 </p>
 
 <h1 align="center">PasteDeck —— 你的 Mac 剪贴板，从此有条理</h1>
